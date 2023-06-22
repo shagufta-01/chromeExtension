@@ -1,0 +1,43 @@
+body {
+    background-color: antiquewhite;
+}
+.wrapper {
+    width: 500px;
+    text-align: center;
+}
+.changeColorBtn {
+    width: 500px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #beea1e;
+    cursor: pointer;
+}
+.colorGride {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.li_color{
+    width: 17px;
+    height: 13px;
+    list-style: none;
+    /* background: forestgreen; */
+    margin: 5px;
+}
+#my_div{
+    display: flex;
+}
